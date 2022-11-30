@@ -1,7 +1,6 @@
 import random
 import os
 
-
 options = ("rock", "paper", "scissors")
 computer = random.choice(options)
 playing= True
