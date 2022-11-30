@@ -43,8 +43,7 @@ while playing:
     else:
         print("You lose!")
         c+=1
-    
-    if input("Want to play again? (y/n)")!="y":
+    if input("Want to play again? (y/n): ")!="y":
         playing=False
     os.system('cls')
 print(res+'\n'+"\t\tThanks for playing\n"+'-'*60)
